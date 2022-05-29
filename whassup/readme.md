@@ -1,4 +1,4 @@
-# whatssApp
+# whassup
 
 > install Node Module to run this app.
 
