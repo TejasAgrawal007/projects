@@ -4,7 +4,7 @@
 
 
 ```
-npm install node module
+npm install node
 
 start project:  npm run dev
 ```
