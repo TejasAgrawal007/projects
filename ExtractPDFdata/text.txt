@@ -1,0 +1,94 @@
+Special Processors
+ 
+These are the processors which are designed for some special purposes. Few of the special 
+processors are brief
+
+ 
+Coprocessor
+ 
+A coprocessor is a specially designed microprocessor, which can handle its particular 
+function many times faster than the ordinary microprocessor.
+ 
+For example
+ 
+
+ 
+Some Intel math
+-
+
+ 
+
+ 
+8087
+-
+used with 
+8086
+ 
+
+ 
+80287
+-
+used with 80286
+ 
+
+ 
+80387
+-
+used with 80386
+ 
+Input/Output Processor
+ 
+It is a specially designed microprocessor having a local memory of its own, which is used to 
+control I/O devices with minimum CPU involvement.
+ 
+For example
+ 
+
+ 
+
+ 
+DMA (direct Memory Access) 
+controller
+ 
+
+ 
+Keyboard/mouse controller
+ 
+
+ 
+Graphic display controller
+ 
+
+ 
+SCSI port controller
+ 
+Transputer (Transistor Computer)
+ 
+A transputer is a specially designed microprocessor with its own local memory and having 
+links to connect one transputer to another transp
+uter for inter
+-
+processor communications. It 
+was first designed in 1980 by Inmos and is targeted to the utilization of VLSI technology.
+ 
+A transputer can be used as a single processor system or can be connected to external links, 
+which reduces the constructi
+on cost and increases the performance.
+ 
+For example
+ 
+
+-
+bit T212, 32
+-
+bit T425, the floating point (T800, T805 & T9000) 
+processors.
+ 
+DSP (Digital Signal Processor)
+ 
+This processor is specially designed to process the analog signals into a digital form. This i
+s 
+done by sampling the voltage level at regular time intervals and converting the voltage at that 
+instant into a digital form. This process is performed by a circuit called an analogue to digital 
+converter, A to D converter or ADC.
+ 
