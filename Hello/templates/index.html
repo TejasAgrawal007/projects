@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+
+{% block body %}
+    <div class="container">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="../static/img/home.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3">Welcome  Agrawal Panipuri</h1>
+              <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"> Order Now 🍽 </button>
+                {% comment %} <button type="button" class="btn btn-outline-secondary btn-lg px-4"></button> {% endcomment %}
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="container my-4">
+        <div class="f-bolder text-center">This popular street food doesn’t need any introduction! Potato, onion, chickpeas, coriander chutney stuffed crispy puri drenched in sour and spicy mint flavored water (pudina pani) easily fills one’s mouth and takes taste buds on a journey of heaven and it is no wonder that it’s a popular street snack along the length and breadth of India and known as gol gappa, puchka, pakodi, Pani Puri, etc.</div>
+        <hr>
+        <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img src="https://cdn1.foodviva.com/static-content/food-images/snacks-recipes/pani-puri/pani-puri.jpg" height="250" width=" 200" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img src="https://www.cookingcarnival.com/wp-content/uploads/2015/04/Pani-puri-3.jpg" height="250" width=" 200" alt="">
+        
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    
+{% endblock body %}

@@ -1,0 +1,20 @@
+.contactContainer {
+    height: 400px;
+    width: 98vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../static/img/contact.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+.contactHeading {
+    position: relative;
+    top: 300px;
+    font-weight: 800;
+    font-size: 64px;
+    color: aqua;
+    letter-spacing: 1px;
+}
+
+.contactHeading:hover {
+    color: lightslategrey;
+    text-decoration: underline;
+}
