@@ -1,0 +1,9 @@
+
+530011-->
+Name:DR. Tejas,
+contactnumber: 917-239-0187,
+location:"Arya Nagar Nagpur",
+timings: 6:30pm-9:30pm,
+Specialist : ENT.
+
+
