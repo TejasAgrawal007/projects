@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NotesApp - Tejas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="min-h-screen w-full bg-slate-900 p-10">
+
+        <a class="text-xl text-blue-500 shadow-md "  href="/">Go Back To Home</a>
+
+        <form action="/edit" method="post">
+          <input class="block text-zinc-800 w-1/4 mb-2 px-2 py-3 rounded-md" type="text" name="previous" placeholder="Previos name" value="<%= filename %>" >
+          <input class="block w-1/4 mb-2 px-2 py-3 rounded-md" type="text" name="new" placeholder="new">
+          <input class="text-white bg-yellow-500 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-600" type="submit" value="Edit Note">
+  
+        </form>
+
+    </main>
+</body>
+</html>

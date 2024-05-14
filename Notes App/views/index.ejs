@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotesApp - Tejas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="overflow-hidden">
+    <main class="min-h-screen w-full bg-slate-900 p-10">
+
+        <form action="/create" method="post">
+            <input class="block w-full mb-2 px-2 py-3 rounded-md" type="text" name="title" placeholder="Title goes here">
+            <input class="block w-full mb-2 px-2 py-3 rounded-md" type="text" name="description" placeholder="description">
+            <input class="text-white bg-blue-500 px-4 py-2 rounded-lg font-semibold hover:bg-blue-600" type="submit" value="Create Note">
+        </form>
+
+        <div class="flex gap-3">
+            
+        <%  if(files.length > 0){ %>
+            <%  files.forEach((item) => { %>
+                    <div class="card min-w-56 bg-slate-600 mt-10 px-5 py-1 px-4 rounded-lg shadow-lg">
+                        <h1 class="text-2xl text-white "><%= item %></h1>
+
+                        <div class="flex w-full justify-between">
+                            <a class="text-blue-600" href="/files/<%= item %>">Read more</a>
+                            <a class="text-slate-200 font-semibold" href="/edit/<%= item %>">Edit</a>
+                        </div>
+                    </div>
+                    <% }) %>
+        <%  }else { %>
+            <h1 class="text-slate-600 text-2xl mt-10">No Notes Yet!</h1>
+        <% }  %>
+        </div>
+
+        
+        <footer class="text-zinc-300 absolute bottom-0 w-full text-center">Notes Taking App - Tejas Agrawal</footer>
+    </main>
+</body>
+</html>
